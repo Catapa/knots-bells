@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+	.navbar-link {
+		@apply font-kulim_park text-black text-sm font-normal uppercase;
+	}
+}
