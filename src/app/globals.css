@@ -16,14 +16,18 @@ body {
 
 @layer base {
   body {
-    @apply font-kulim_park;
+    @apply font-kulim_park bg-white;
   }
 
   h1 {
     @apply text-black text-2xl font-normal font-rockybilly;
   }
 
-  h2 {
+  p {
     @apply text-black text-xl font-normal;
+  }
+
+  .container {
+    @apply max-w-[1440px] mx-auto;
   }
 }

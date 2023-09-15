@@ -14,9 +14,9 @@ const Hero = () => {
 			/>
 			<div className={'max-w-[800px] mx-auto mt-20 flex flex-col items-center gap-7'}>
 				<h1>Timeless Wedding Experiences</h1>
-				<h2 className={''}>
+				<p className={''}>
 					Your love story deserves a beautiful beginning. Let us take care of the details, so you can focus on creating memories that will last a lifetime.
-				</h2>
+				</p>
 				<Button>
 					Get in touch
 				</Button>
