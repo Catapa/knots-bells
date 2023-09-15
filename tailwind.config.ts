@@ -14,7 +14,8 @@ const config: Config = {
       },
       fontFamily: {
         'kulim_park': 'var(--font-kulim-park)',
-        'rockybilly': 'var(--font-rockybilly)'
+        'rockybilly': 'var(--font-rockybilly)',
+        'inter': 'var(--font-inter)'
       }
     },
   },

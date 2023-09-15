@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+	.navbar-link {
+		@apply font-inter text-black text-sm font-normal uppercase;
+	}
+
+	.navbar-group {
+		@apply space-x-24;
+	}
+}
