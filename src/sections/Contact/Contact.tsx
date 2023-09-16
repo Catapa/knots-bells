@@ -5,8 +5,8 @@ import Image from 'next/image';
 const Contact = () => {
 	return (
 		<>
-			<section className={'relative container border-2 border-black pb-52 md:pb-36 lg:pb-9 pt-12 flex flex-col lg:flex-row justify-between mb-32'}>
-				<div className={'w-full flex flex-col gap-8 max-w-[720px] basis-3/4'}>
+			<section className={'relative container border-2 border-black pb-52 sm:pb-32 md:pb-24 lg:pb-9 pt-12 flex flex-col lg:flex-row justify-between mb-48 lg:mb-32'}>
+				<div className={'relative w-full flex flex-col gap-8 max-w-[720px] basis-3/4 z-20'}>
 					<h1 className={'text-center lg:text-start'}>So, What&apos;s a Dream Wedding Like to You?</h1>
 					<p>Contact us now and we&apos;ll get you the best wedding vendors to ensure your dream wedding comes true.</p>
 					<Button>Contact us</Button>

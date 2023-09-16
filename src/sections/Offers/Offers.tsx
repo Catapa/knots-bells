@@ -28,7 +28,7 @@ const Offers = () => {
 				</div>
 				<Button>Details</Button>
 			</section>
-			<Image src={Blob2} alt={''} className={'absolute right-0 translate-x-1/3 -translate-y-[110%] -z-10 overflow-hidden'}/>
+			<Image src={Blob2} alt={''} className={'absolute right-0 translate-x-1/3 -translate-y-[110%] -z-10'}/>
 		</>
 		
 	);

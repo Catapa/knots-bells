@@ -2,6 +2,6 @@
 
 @layer components {
 	.navbar-link {
-		@apply font-kulim_park text-black text-sm font-normal uppercase;
+		@apply font-kulim_park text-black text-base lg:text-sm font-normal uppercase;
 	}
 }
