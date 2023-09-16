@@ -20,7 +20,7 @@ body {
   }
 
   body {
-    @apply font-kulim_park bg-white;
+    @apply font-kulim_park bg-white overflow-x-hidden;
   }
 
   h1 {

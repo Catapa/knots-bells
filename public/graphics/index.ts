@@ -8,6 +8,8 @@ import CheckmarkImg from './checkmark_2x.png';
 import HowToStart_Img_1 from './howtostart_1_4x.jpg';
 import HowToStart_Img_2 from './howtostart_2_4x.jpg';
 import Blob from './blob.svg';
+import Blob2 from './blob_2.svg';
+import Blob3 from './blob_3.svg';
 import GoalsBG from './goals_bg_4x.jpg';
 import Goals1 from './goals_1_4x.jpg';
 import Goals2 from './goals_2_4x.jpg';
@@ -27,6 +29,8 @@ export {
 	HowToStart_Img_1,
 	HowToStart_Img_2,
 	Blob,
+	Blob2,
+	Blob3,
 	GoalsBG,
 	Goals1,
 	Goals2,

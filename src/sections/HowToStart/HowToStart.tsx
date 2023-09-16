@@ -9,12 +9,13 @@ interface CheckmarkProps {
 const Checkmark = ({name} : CheckmarkProps) => {
 	return (
 		<div className={'relative border border-black w-[36px] h-[36px]'}>
-			<Image src={CheckmarkImg} alt={`We provide ${name}`} className={'absolute bottom-0 -left-1.5 min-w-[62px]'}/>
+			<Image src={CheckmarkImg} alt={`We provide ${name}`} className={'absolute bottom-0 -left-1.5 min-w-[62px] transition-transform duration-500 group-hover:rotate-[7deg]'}/>
 		</div>
 	);
 };
 
 const HowToStart = () => {
+	const listItemAnimation = 'transition-all duration-300 group-hover:ml-1.5';
 	return (
 		<section className={'relative flex flex-row my-24'}>
 			<div className={'w-full basis-[45%]'}>
@@ -32,51 +33,51 @@ const HowToStart = () => {
 				<h1>How to start</h1>
 				<ul className={'divide-y-2 divide-cream border-t-2 border-b-2 border-cream my-9'}>
 					{/* List item - Consultation */}
-					<li className={'list-item'}>
+					<li className={'list-item group'}>
 						{/* Checkmark */}
 						<Checkmark name={'Consultation'}/>
 						{/* Text */}
-						<div className={'flex flex-col justify-between'}>
+						<div className={`flex flex-col justify-between ${listItemAnimation}`}>
 							<p className={'font-bold'}>Consultation</p>
 							<p>Discuss your vision, budget, and wedding date with a planner.</p>
 						</div>
 					</li>
 					{/* List item - Planning and Coordination */}
-					<li className={'list-item'}>
+					<li className={'list-item group'}>
 						{/* Checkmark */}
 						<Checkmark name={'Planning and Coordination'}/>
 						{/* Text */}
-						<div className={'flex flex-col justify-between'}>
+						<div className={`flex flex-col justify-between ${listItemAnimation}`}>
 							<p className={'font-bold'}>Planning and Coordination</p>
 							<p>Develop a plan and timeline, handle logistics.</p>
 						</div>
 					</li>
 					{/* List item - Budget Management */}
-					<li className={'list-item'}>
+					<li className={'list-item group'}>
 						{/* Checkmark */}
 						<Checkmark name={'Budget Management'}/>
 						{/* Text */}
-						<div className={'flex flex-col justify-between'}>
+						<div className={`flex flex-col justify-between ${listItemAnimation}`}>
 							<p className={'font-bold'}>Budget Management</p>
 							<p>Set a budget and avoid overspending.</p>
 						</div>
 					</li>
 					{/* List item - Design and Decor */}
-					<li className={'list-item'}>
+					<li className={'list-item group'}>
 						{/* Checkmark */}
 						<Checkmark name={'Design and Decor'}/>
 						{/* Text */}
-						<div className={'flex flex-col justify-between'}>
+						<div className={`flex flex-col justify-between ${listItemAnimation}`}>
 							<p className={'font-bold'}>Design and Decor</p>
 							<p>Choose the elements to create the ambiance you desire.</p>
 						</div>
 					</li>
 					{/* List item - Wedding Day Coordination */}
-					<li className={'list-item'}>
+					<li className={'list-item group'}>
 						{/* Checkmark */}
 						<Checkmark name={'Wedding Day Coordination'}/>
 						{/* Text */}
-						<div className={'flex flex-col justify-between'}>
+						<div className={`flex flex-col justify-between ${listItemAnimation}`}>
 							<p className={'font-bold'}>Wedding Day Coordination</p>
 							<p>Oversee details and handle any issues for stress-free day.</p>
 						</div>

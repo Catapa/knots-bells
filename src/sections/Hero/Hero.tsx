@@ -5,7 +5,7 @@ import { Button } from '@/components';
 const Hero = () => {
 	return (
 		<section className={'w-full '}>
-			<div className={'relative w-full min-h-[390px] 2xl:min-h-[500px] 4xl:min-h-[750px] 5xl:min-h-[960px] [clip-path:inset(0_0_0_0)]'}>
+			<div className={'relative w-full min-h-[390px] 2xl:min-h-[550px] 4xl:min-h-[750px] 5xl:min-h-[960px] [clip-path:inset(0_0_0_0)]'}>
 				<div className={'fixed w-full h-full left-0 top-0'}>
 					<Image 
 						src={HeroBG} 
