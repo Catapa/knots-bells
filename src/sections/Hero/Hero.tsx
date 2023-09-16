@@ -4,14 +4,20 @@ import { Button } from '@/components';
 
 const Hero = () => {
 	return (
-		<section className={'w-full'}>
-			<Image 
-				src={HeroBG} 
-				alt={'Knots & Bells - Timeless Wedding Experiences'} 
-				width={1440}
-				height={390} 
-				className={'w-full min-h-[360px] object-cover origin-center'}	
-			/>
+		<section className={'w-full '}>
+			<div className={'relative w-full min-h-[390px] 2xl:min-h-[500px] 4xl:min-h-[750px] 5xl:min-h-[960px] [clip-path:inset(0_0_0_0)]'}>
+				<div className={'fixed w-full h-full left-0 top-0'}>
+					<Image 
+						src={HeroBG} 
+						alt={'Knots & Bells - Timeless Wedding Experiences'} 
+						width={1440}
+						height={390}
+						//fill={true}
+						objectFit={'cover'}
+						className={'relative block inset-0 w-full min-h-[390px] object-cover bg-center -z-20'}	
+					/>
+				</div>
+			</div>
 			<div className={'max-w-[800px] mx-auto mt-20 flex flex-col items-center gap-7'}>
 				<h1>Timeless Wedding Experiences</h1>
 				<p className={''}>

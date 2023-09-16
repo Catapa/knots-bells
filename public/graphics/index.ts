@@ -8,6 +8,12 @@ import CheckmarkImg from './checkmark_2x.png';
 import HowToStart_Img_1 from './howtostart_1_4x.jpg';
 import HowToStart_Img_2 from './howtostart_2_4x.jpg';
 import Blob from './blob.svg';
+import GoalsBG from './goals_bg_4x.jpg';
+import Goals1 from './goals_1_4x.jpg';
+import Goals2 from './goals_2_4x.jpg';
+import Goals3 from './goals_3_4x.jpg';
+import Goals4 from './goals_4_4x.jpg';
+import Goals5 from './goals_5_4x.jpg';
 
 export {
 	HeroBG,
@@ -19,5 +25,11 @@ export {
 	CheckmarkImg,
 	HowToStart_Img_1,
 	HowToStart_Img_2,
-	Blob
+	Blob,
+	GoalsBG,
+	Goals1,
+	Goals2,
+	Goals3,
+	Goals4,
+	Goals5
 };

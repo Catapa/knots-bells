@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
 	return (
-		<header className={'absolute top-0 w-full'}>
+		<header className={'absolute top-0 w-full z-20'}>
 			<nav className={'flex flex-row justify-between items-center px-10 py-2'}>
 				<ul className={'navbar-group'}>
 					<Link href={'#'} className={'navbar-link'}>Home</Link>

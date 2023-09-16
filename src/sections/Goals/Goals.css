@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+	.img-card {
+		@apply w-full min-w-[200px];
+	}
+}

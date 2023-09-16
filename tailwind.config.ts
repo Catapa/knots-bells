@@ -16,6 +16,11 @@ const config: Config = {
         'kulim_park': 'var(--font-kulim-park)',
         'rockybilly': 'var(--font-rockybilly)',
         'inter': 'var(--font-inter)'
+      },
+      screens: {
+        '3xl': '1920px',
+        '4xl': '2560px',
+        '5xl': '3840px',
       }
     },
   },
