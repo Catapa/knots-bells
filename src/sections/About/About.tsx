@@ -3,7 +3,7 @@ import { AboutImg, AboutBlob, Triangle } from "../../../public/graphics";
 
 const About = () => {
 	return (
-		<section className={'relative bg-cream my-16'}>
+		<section className={'relative bg-cream my-24'}>
 			{/* Triangles */}
 			<Image src={Triangle} alt={''} className={'absolute top-0 left-32 -translate-y-1/2 z-20 w-[70px]'}/>
 			<Image src={Triangle} alt={''} className={'absolute bottom-0 left-[58%] translate-y-1/2 z-20 w-[70px] rotate-180'}/>

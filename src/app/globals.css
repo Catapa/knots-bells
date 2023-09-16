@@ -15,6 +15,10 @@ body {
 }
 
 @layer base {
+  ::selection {
+    @apply bg-cream;
+  }
+
   body {
     @apply font-kulim_park bg-white;
   }

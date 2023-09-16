@@ -5,7 +5,7 @@ interface Props {
 }
 const Button = ({children} : Props)  => {
 	return (
-		<button className={'relative text-black text-xl font-normal font-kulim-park border border-black px-16 py-2'}>
+		<button className={'relative text-black text-xl font-normal font-kulim-park border border-black px-16 py-2 w-max'}>
 			<span>
 				{children}
 			</span>
