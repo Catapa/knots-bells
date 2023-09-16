@@ -3,7 +3,7 @@ import './Offers.css';
 
 const Offers = () => {
 	return (
-		<section className={'container mt-60 mb-8 text-center'}>
+		<section className={'container mt-60 mb-16 text-center'}>
 			<h1 className={'text-start'}>We have all waht you need</h1>
 			<div className={'grid grid-cols-4 w-full text-black text-xl font-normal my-9'}>
 				<span className={'offer-item'}>Venues</span>

@@ -14,6 +14,7 @@ import Goals2 from './goals_2_4x.jpg';
 import Goals3 from './goals_3_4x.jpg';
 import Goals4 from './goals_4_4x.jpg';
 import Goals5 from './goals_5_4x.jpg';
+import ContactImg from './contact_4x.jpg';
 
 export {
 	HeroBG,
@@ -31,5 +32,6 @@ export {
 	Goals2,
 	Goals3,
 	Goals4,
-	Goals5
+	Goals5,
+	ContactImg
 };
