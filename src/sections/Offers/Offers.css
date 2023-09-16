@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+	.offer-item {
+		@apply w-full pt-4 pb-1 flex flex-row items-center border-b-2 border-cream before:mr-2 before:inline-block before:border-2 before:border-black before:w-[20px] before:h-[20px] before:rounded-full;
+	}
+}

@@ -1,11 +1,12 @@
 import { ReactNode } from "react";
 
 interface Props {
+	className?: string;
 	children: ReactNode;
 }
-const Button = ({children} : Props)  => {
+const Button = ({className, children} : Props)  => {
 	return (
-		<button className={'relative text-black text-xl font-normal font-kulim-park border border-black px-16 py-2 w-max'}>
+		<button className={`relative text-black text-xl font-normal font-kulim-park border border-black px-16 py-2 w-max ${className}`}>
 			<span>
 				{children}
 			</span>
