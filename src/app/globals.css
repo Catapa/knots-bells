@@ -12,6 +12,7 @@
 html,
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 @layer base {
@@ -20,18 +21,18 @@ body {
   }
 
   body {
-    @apply font-kulim_park bg-white overflow-x-hidden;
+    @apply font-kulim_park bg-white;
   }
 
   h1 {
-    @apply text-black text-2xl font-normal font-rockybilly;
+    @apply text-black text-lg lg:text-2xl font-normal font-rockybilly;
   }
 
   p {
-    @apply text-black text-xl font-normal;
+    @apply text-black text-base lg:text-xl font-normal;
   }
 
   .container {
-    @apply !max-w-[1440px] !mx-auto;
+    @apply w-full !max-w-[1440px] !mx-auto px-4 md:px-12 lg:px-28;
   }
 }

@@ -1,6 +1,6 @@
-import Image from "next/image";
-import { Logo, Triangle, UpcraftyLogo } from "../../../public/graphics";
-import Link from "next/link";
+import Image from 'next/image';
+import { Logo, Triangle, UpcraftyLogo } from '../../../public/graphics';
+import Link from 'next/link';
 import './Footer.css';
 
 const Footer = () => {

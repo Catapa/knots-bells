@@ -7,8 +7,8 @@ const Offers = () => {
 	return (
 		<>
 			<section className={'container mt-60 mb-16 text-center'}>
-				<h1 className={'text-start'}>We have all waht you need</h1>
-				<div className={'grid grid-cols-4 w-full text-black text-xl font-normal my-9'}>
+				<h1 className={'text-center lg:text-start'}>We have all waht you need</h1>
+				<div className={'grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 w-full text-black text-xl font-normal my-9'}>
 					<span className={'offer-item'}>Venues</span>
 					<span className={'offer-item'}>Band</span>
 					<span className={'offer-item'}>Catering</span>
@@ -28,7 +28,7 @@ const Offers = () => {
 				</div>
 				<Button>Details</Button>
 			</section>
-			<Image src={Blob2} alt={''} className={'absolute right-0 translate-x-1/3 -translate-y-[110%] -z-10'}/>
+			<Image src={Blob2} alt={''} className={'absolute right-0 translate-x-1/3 -translate-y-[110%] -z-10 overflow-hidden'}/>
 		</>
 		
 	);

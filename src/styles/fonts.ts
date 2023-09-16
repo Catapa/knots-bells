@@ -1,12 +1,12 @@
 import { Inter, Kulim_Park } from 'next/font/google';
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
 
 const inter = Inter({
 	subsets: ['latin'],
 	variable: '--font-inter'
 });
 const kulim_park = Kulim_Park({
-	weight: ["200", "300", "400", "600", "700"],
+	weight: ['200', '300', '400', '600', '700'],
 	subsets: ['latin'],
 	variable: '--font-kulim-park'
 });
@@ -19,4 +19,4 @@ export {
 	inter,
 	kulim_park,
 	rockybilly
-}
+};

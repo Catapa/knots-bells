@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Goals1, Goals2, Goals3, Goals4, Goals5 } from "../../../public/graphics";
+import Image from 'next/image';
+import { Goals1, Goals2, Goals3, Goals4, Goals5 } from '../../../public/graphics';
 import './Goals.css';
 
 const Goals = () => {
@@ -8,8 +8,8 @@ const Goals = () => {
 			{/* Overlay */}
 			<span className={'absolute inset-0 bg-cream/70'}/>
 			{/* Text */}
-			<div className={'container relative z-10 px-24'}>
-				<h1 className={'mb-8'}>It's all in the details</h1>
+			<div className={'container relative z-10 px-4 lg:px-24'}>
+				<h1 className={'mb-8'}>It&apos;s all in the details</h1>
 				<p className={''}>
 					Our goal is to strike a perfect balance between comfort and splendor, 
 					ensuring that your special day is nothing less than extraordinary. 

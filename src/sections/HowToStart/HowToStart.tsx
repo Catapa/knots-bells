@@ -1,7 +1,7 @@
-import Image from "next/image";
-import { CheckmarkImg, HowToStart_Img_2, HowToStart_Img_1, Blob } from "../../../public/graphics";
+import Image from 'next/image';
+import { CheckmarkImg, HowToStart_Img_2, HowToStart_Img_1, Blob } from '../../../public/graphics';
 import './HowToStart.css';
-import { Button } from "@/components";
+import { Button } from '@/components';
 
 interface CheckmarkProps {
 	name: string;
@@ -17,8 +17,8 @@ const Checkmark = ({name} : CheckmarkProps) => {
 const HowToStart = () => {
 	const listItemAnimation = 'transition-all duration-300 group-hover:ml-1.5';
 	return (
-		<section className={'relative flex flex-row my-24'}>
-			<div className={'w-full basis-[45%]'}>
+		<section className={'container relative flex flex-row my-24 overflow-hidden'}>
+			<div className={'w-full basis-[50%]'}>
 				{/* Side Image */}
 				<Image src={HowToStart_Img_1} alt={'How to start'} className={'absolute h-[556px] w-min object-contain left-0 -translate-x-1/2'}/>
 				{/* Blob */}
@@ -29,7 +29,7 @@ const HowToStart = () => {
 					<Image src={HowToStart_Img_2} alt={'How to start'} className={'w-full h-full object-contain translate-x-[25px] translate-y-[25px]'}/>
 				</div>
 			</div>
-			<div className={'flex flex-col justify-start w-full basis-[55%]'}>
+			<div className={'flex flex-col justify-start w-full basis-[50%] py-6'}>
 				<h1>How to start</h1>
 				<ul className={'divide-y-2 divide-cream border-t-2 border-b-2 border-cream my-9'}>
 					{/* List item - Consultation */}

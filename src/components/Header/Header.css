@@ -6,6 +6,6 @@
 	}
 
 	.navbar-group {
-		@apply space-x-24;
+		@apply hidden lg:inline-block lg:space-x-12 xl:space-x-24;
 	}
 }
