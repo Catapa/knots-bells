@@ -4,7 +4,7 @@ import './Goals.css';
 
 const Goals = () => {
 	return (
-		<section className={'relative text-center bg-[url("/graphics/goals_bg_4x.jpg")] bg-cover bg-left bg-fixed pt-28 pb-56'}>
+		<section className={'relative text-center bg-[url("/graphics/goals_bg_4x.webp")] bg-cover bg-left bg-fixed pt-28 pb-56'}>
 			{/* Overlay */}
 			<span className={'absolute inset-0 bg-cream/70'}/>
 			{/* Text */}
