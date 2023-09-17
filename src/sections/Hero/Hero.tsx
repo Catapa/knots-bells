@@ -14,6 +14,7 @@ const Hero = () => {
 						height={390}
 						//fill={true}
 						objectFit={'cover'}
+						priority={true}
 						className={'relative block inset-0 w-full min-h-[390px] object-cover bg-center '}	
 					/>
 				</div>
