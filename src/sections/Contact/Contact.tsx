@@ -11,7 +11,7 @@ const Contact = () => {
 					<p>Contact us now and we&apos;ll get you the best wedding vendors to ensure your dream wedding comes true.</p>
 					<Button>Contact us</Button>
 				</div>
-				<Image data-scroll data-scroll-speed={0.25} src={ContactImg} alt={'Contact us'} className={'absolute w-[272px] basis-1/4 object-contain z-10  bottom-0 translate-y-[40%] top-auto lg:translate-y-0 lg:top-12 right-12'} />
+				<Image data-scroll data-scroll-speed={0.15} src={ContactImg} alt={'Contact us'} className={'absolute w-[272px] basis-1/4 object-contain z-10  bottom-0 translate-y-[40%] top-auto lg:translate-y-0 lg:top-12 right-12'} />
 			</section>
 			<Image src={Blob3} alt={''} className={'absolute left-0 -translate-x-1/2 -translate-y-[140%] -z-10 w-[510px]'} />
 		</>

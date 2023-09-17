@@ -19,10 +19,10 @@ const Goals = () => {
 			</div>
 			{/* Images */}
 			<div className={'container text-center absolute left-0 right-0 bottom-0 w-full flex flex-row justify-center gap-2 lg:gap-4 2xl:gap-8 translate-y-1/2 z-20'}>
-				<Image data-scroll data-scroll-speed={0.1} src={Goals1} alt={''} className={'img-card'}/>
-				<Image data-scroll data-scroll-speed={0.11} src={Goals2} alt={''} className={'img-card'}/>
+				<Image data-scroll data-scroll-speed={0.12} src={Goals1} alt={''} className={'img-card'}/>
+				<Image data-scroll data-scroll-speed={0.175} src={Goals2} alt={''} className={'img-card'}/>
 				<Image data-scroll data-scroll-speed={0.25} src={Goals3} alt={''} className={'img-card translate-y-8'}/>
-				<Image data-scroll data-scroll-speed={0.105} src={Goals4} alt={''} className={'img-card'}/>
+				<Image data-scroll data-scroll-speed={0.175} src={Goals4} alt={''} className={'img-card'}/>
 				<Image data-scroll data-scroll-speed={0.12} src={Goals5} alt={''} className={'img-card'}/>
 			</div>
 			{/* Line */}
