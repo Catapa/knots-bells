@@ -27,7 +27,7 @@ const About = () => {
 				</div>
 				<div className={'absolute lg:relative max-w-[30%] lg:w-full top-0 right-[4%] lg:right-0 -translate-y-[35%] lg:translate-y-0 h-max basis-1/3'}>
 					<span className={'absolute block w-full h-full border-2 border-black z-10'}/>
-					<Image src={AboutImg} alt='About us' width={1496} height={1920} className={'w-full h-full object-contain translate-x-[25px] translate-y-[15px]'}/>
+					<Image src={AboutImg} alt='About us' width={1496} height={1920} className={'min-w-[100px] w-full h-full object-contain translate-x-[25px] translate-y-[15px]'}/>
 				</div>
 			</div>
 		</section>
