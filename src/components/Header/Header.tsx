@@ -6,7 +6,7 @@ import './Header.css';
 const Header = () => {
 	return (
 		<header className={'absolute top-0 left-0 right-0 w-full z-50'}>
-			<nav className={'relative flex flex-row justify-between items-center px-10 py-2'}>
+			<nav className={'relative flex flex-row justify-between items-center px-10 py-8 lg:py-2'}>
 				<ul className={'navbar-group'}>
 					<Link href={'#'} className={'navbar-link'}>Home</Link>
 					<Link href={'#'} className={'navbar-link'}>Details</Link>
