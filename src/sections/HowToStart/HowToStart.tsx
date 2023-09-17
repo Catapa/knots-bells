@@ -17,8 +17,8 @@ const Checkmark = ({name} : CheckmarkProps) => {
 const HowToStart = () => {
 	const listItemAnimation = 'transition-all duration-300 group-hover:ml-1.5';
 	return (
-		<section className={'container relative flex flex-col lg:flex-row items-center lg:items-stretch justify-between my-24 overflow-hidden gap-8'}>
-			<div className={'w-full basis-[48%]'}>
+		<section data-scroll-section className={'container relative flex flex-col lg:flex-row items-center lg:items-stretch justify-between my-24 overflow-hidden gap-8'}>
+			<div data-scroll data-scroll-speed={0.1} className={'w-full basis-[48%]'}>
 				{/* Side Image */}
 				<Image src={HowToStart_Img_1} alt={'How to start'} className={'absolute hidden lg:inline-block max-h-[556px] w-full object-contain left-0 -translate-x-1/2'}/>
 				{/* Blob */}
@@ -29,7 +29,7 @@ const HowToStart = () => {
 					<Image src={HowToStart_Img_2} alt={'How to start'} className={'w-full h-full object-contain translate-x-[25px] translate-y-[25px]'}/>
 				</div>
 			</div>
-			<div className={'flex flex-col justify-start w-full basis-[48%] py-6 z-10'}>
+			<div data-scroll data-scroll-speed={0.15} className={'flex flex-col justify-start w-full basis-[48%] py-6 z-10'}>
 				<h1>How to start</h1>
 				<ul className={'divide-y-2 divide-cream border-t-2 border-b-2 border-cream my-9'}>
 					{/* List item - Consultation */}

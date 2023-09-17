@@ -21,7 +21,7 @@ body {
   }
 
   body {
-    @apply font-kulim_park bg-white;
+    @apply font-kulim_park bg-white scroll-smooth;
   }
 
   h1 {

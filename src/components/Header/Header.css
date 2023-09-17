@@ -2,10 +2,10 @@
 
 @layer components {
 	.navbar-link {
-		@apply font-inter text-black text-sm font-normal uppercase;
+		@apply relative font-inter text-black text-sm font-normal uppercase;
 	}
 
 	.navbar-group {
-		@apply hidden lg:inline-block lg:space-x-12 xl:space-x-24;
+		@apply relative hidden lg:inline-block lg:space-x-12 xl:space-x-24;
 	}
 }
