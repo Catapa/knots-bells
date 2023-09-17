@@ -18,6 +18,12 @@ const Header = () => {
 					<Link href={'#'} className={'navbar-link'}>Portfolio</Link>
 					<Link href={'#'} className={'navbar-link'}>Contact</Link>
 				</ul>
+				{/* Hamburger icon */}
+				<div className={'flex lg:hidden flex-col gap-1.5 cursor-pointer'}>
+					<span className={'block w-7 h-[2px] bg-black'} />
+					<span className={'block w-7 h-[2px] bg-black'} />
+					<span className={'block w-7 h-[2px] bg-black'} />
+				</div>
 			</nav>
 		</header>
 	);
