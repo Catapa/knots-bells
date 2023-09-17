@@ -25,7 +25,7 @@ const About = () => {
 						we work tirelessly to ensure your special day is stress-free and flawless.
 					</p>
 				</div>
-				<div className={'absolute lg:relative max-w-[30%] lg:w-full top-0 right-[4%] lg:right-0 -translate-y-[35%] lg:translate-y-0 basis-1/3'}>
+				<div className={'absolute lg:relative max-w-[30%] lg:w-full h-min top-0 right-[4%] lg:right-0 -translate-y-[35%] lg:translate-y-0 basis-1/3'}>
 					<span className={'absolute block w-full h-full border-2 border-black z-10'}/>
 					<Image src={AboutImg} alt='About us' width={1496} height={1920} className={'min-w-[100px] w-full h-max object-contain translate-x-[10px] translate-y-[10px] lg:translate-x-[25px] lg:translate-y-[15px]'}/>
 				</div>
